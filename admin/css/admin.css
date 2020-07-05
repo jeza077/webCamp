@@ -1,0 +1,60 @@
+.user-panel {
+    height: 60px;
+}
+.user-panel>.info {
+    position: relative;
+    left: auto;
+}
+.skin-blue .sidebar-menu>li.header {
+    color: white;
+}
+/* Background del LOGIN
+body>.login-page {
+    color: red!important;
+} */
+.login-page .main-footer {
+    display: none;
+}
+
+/*SCROLL PERSONALIZADO*/
+body::-webkit-scrollbar {
+    width: 0.8em!important;
+    /* background: #ecf0f5; */
+}
+body::-webkit-scrollbar-thumb {
+    background: #394d57;
+    border-radius: 4px;
+}
+
+ /* ESTILOS PARA LOS TALLERES DE ADMIN REGISTROS */
+.contenido-dia {
+    display: none;
+}
+.tabla-precio ul,
+ul.lista-precios{
+    list-style: none;
+    padding: 0; 
+    margin: 0;
+}
+ul.lista-precios li .numero {
+    font-size: 2em;
+}
+.tabla-precio h3 {
+    text-transform: uppercase;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #fe4918;
+}
+h4.nombre_dia {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fe4918;
+}
+.contenido-dia label {
+    font-weight: normal;
+}
+.contenido-dia time {
+    color: #fe4918;
+    font-weight: bold;
+}
